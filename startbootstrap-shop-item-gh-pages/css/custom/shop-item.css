@@ -106,3 +106,32 @@ gatsby-highlight, [data-css-1b9qwuc] .gatsby-highlight {
     tab-size: 1.5em;
     -moz-tab-size: 1.5em;
 }
+
+h1.typewriter{
+	margin: 30px;
+	white-space:nowrap;
+	overflow: hidden;
+	width: 30em;
+	animation: type 5s steps(50, end) 1;	
+}
+
+h2.typewriter{
+	margin: 30px;
+	white-space:nowrap;
+	overflow: hidden;
+	width: 20em;
+	animation: type 5s steps(50, end) 1;	
+}
+
+/* let's animate, it's super easy */
+@keyframes type{
+	from{ width: 0;}
+}
+/*looks like something is wrong, Fixed!!! */
+
+
+@keyframes blink{
+	to{ opacity: .0;}
+}
+
+/*That's it. Enjoy!!! :) */
