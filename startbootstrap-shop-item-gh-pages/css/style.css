@@ -8,7 +8,7 @@ body {
   background: linear-gradient(to bottom, #405166 0%, #656f6f 100%);
 }
 
-.container {
+.Scontainer {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
@@ -17,7 +17,7 @@ body {
   max-width: 250px;
 }
 
-.button {
+.Sbutton {
   float: left;
   position: relative;
   bottom: -65px;
@@ -29,7 +29,7 @@ body {
   visibility: hidden;
   cursor: pointer;
 }
-.button span {
+.Sbutton span {
   transform: skew(-10deg);
   display: block;
   float: left;
@@ -45,14 +45,14 @@ h1 {
   letter-spacing: 2px;
 }
 
-.title {
+.Stitle {
   transform: translateX(-50%) rotate(-10deg);
   display: block;
   float: left;
   left: 50%;
   position: relative;
 }
-.title span {
+.Stitle span {
   transform: skew(-10deg);
   display: block;
   float: left;
@@ -62,12 +62,12 @@ h1 {
   position: relative;
 }
 
-.title:nth-child(1) {
+.Stitle:nth-child(1) {
   color: #e55643;
 }
-.title:nth-child(2) {
+.Stitle:nth-child(2) {
   color: #2b9f5e;
 }
-.title:nth-child(3) {
+.Stitle:nth-child(3) {
   color: #f1c83c;
 }
